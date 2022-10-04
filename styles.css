@@ -53,6 +53,21 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
+    user-select: none;
+}
+
+.numbering .bullet:hover {
+    background-color: hsl(217, 12%, 63%);
+    color: white;
+    cursor: pointer;
+}
+
+.numbering .bullet:active {
+        background-color: hsl(25, 97%, 53%);
+        box-shadow: 0 2px hsl(217, 12%, 63%);
+        color: white;
+        transform: translateY(2px);
+
 }
 
 button {
@@ -65,4 +80,21 @@ button {
     margin-top: 1.5rem;
     font-weight: 700;
     letter-spacing: .25rem;
+    user-select: none;
+    
+}
+
+button:hover {
+    background-color: white;
+    color: hsl(25, 97%, 53%);
+    cursor: pointer;
+    box-shadow: 0 6px hsl(25, 97%, 53%);
+}
+
+
+button:active {
+background-color: white;
+box-shadow: 0 2px white;
+color: hsl(25, 97%, 53%);
+transform: translateY(2px);
 }
