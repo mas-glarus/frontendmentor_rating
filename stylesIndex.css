@@ -54,6 +54,7 @@ p {
     justify-content: center;
     align-items: center;
     user-select: none;
+    border: none;
 }
 
 .numbering .bullet:hover {
@@ -70,7 +71,7 @@ p {
 
 }
 
-button {
+#myBtn {
     background-color: hsl(25, 97%, 53%);
     color: white;
     width: 100%;
@@ -84,7 +85,7 @@ button {
     
 }
 
-button:hover {
+#myBtn:hover {
     background-color: white;
     color: hsl(25, 97%, 53%);
     cursor: pointer;
@@ -92,7 +93,7 @@ button:hover {
 }
 
 
-button:active {
+#myBtn:active {
 background-color: white;
 box-shadow: 0 2px white;
 color: hsl(25, 97%, 53%);
