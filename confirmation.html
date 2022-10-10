@@ -14,13 +14,19 @@
 <body>
     <div class="container">
         <img src="./images/illustration-thank-you.svg" alt="receipt" class="receipt">
-        <div class="selected">You selected 4 out of 5</div>
+        <div class="selected">
+            <p class="ratingPara"></p>
+        </div>
         <h1>Thank you!</h1>
         <p>We appreciate you taking the time to give a rating. If you ever need more support,
             don’t hesitate to get in touch!</p>
-        <button id="myBtn">GO BACK</button>
+        <button id="myBtn2" onClick="parent.location='index.html'">GO BACK</button>
     </div>
-    <script type="text/javascript" src="appConfirmation.js"></script>
+    <script>;
+        let starRating = localStorage.getItem('rating');
+        let feedback = `You selected ${starRating} out of 5.`;
+        console.log(feedback);
+    </script>
 </body>
 
 </html>

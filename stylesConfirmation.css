@@ -79,3 +79,7 @@ box-shadow: 0 2px white;
 color: hsl(25, 97%, 53%);
 transform: translateY(2px);
 }
+
+.ratingP {
+    color: red;
+}
