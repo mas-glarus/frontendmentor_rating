@@ -15,7 +15,7 @@
     <div class="container">
         <img src="./images/illustration-thank-you.svg" alt="receipt" class="receipt">
         <div class="selected">
-            <p class="ratingPara"></p>
+            <span id="ratingPara"></span>
         </div>
         <h1>Thank you!</h1>
         <p>We appreciate you taking the time to give a rating. If you ever need more support,
@@ -24,8 +24,9 @@
     </div>
     <script>;
         let starRating = localStorage.getItem('rating');
-        let feedback = `You selected ${starRating} out of 5.`;
-        console.log(feedback);
+        let feedback = `You selected ${starRating} out of 5`;
+
+        document.getElementById('ratingPara').textContent = feedback;
     </script>
 </body>
 

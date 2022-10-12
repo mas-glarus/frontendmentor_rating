@@ -29,10 +29,11 @@ body {
 .selected {
     display: flex;
     justify-content: center;
+    align-items: center;
     font-weight: 400;
     background-color: hsla(216, 12%, 54%, 0.162);
     color: hsl(25, 95%, 64%);
-    padding: .5rem;
+    padding: 1rem .5rem;
     border-radius: 2rem;
     width: 60%;
     margin: 2rem 0;
@@ -78,8 +79,4 @@ background-color: white;
 box-shadow: 0 2px white;
 color: hsl(25, 97%, 53%);
 transform: translateY(2px);
-}
-
-.ratingP {
-    color: red;
 }
